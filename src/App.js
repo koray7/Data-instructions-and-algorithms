@@ -1,14 +1,12 @@
-import Header from "./components/Header/Header";
 import './index.css'
-import SimpleBottomNavigation from "./components/MainNav"
+
 
 function App() {
   return (
     <>
     <div className="App">
-      <Header />
+    <h1>Movie App!!!</h1>
     </div>
-    <SimpleBottomNavigation />
     </>
   );
 }
