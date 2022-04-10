@@ -1,3 +1,19 @@
-h1{
-    color:rgb(17, 0, 255);
+@import "../src/common/colors.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: $primary-color;
+}
+.container {
+    margin: 0px 40px;
 }
