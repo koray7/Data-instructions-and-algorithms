@@ -6,6 +6,7 @@ import { APIKey } from '../../common/apis/movieApiKey';
 import { useDispatch } from "react-redux";
 import { addMovies } from "../../features/movies/movieSlice"
 
+
 const Home = () => {
 
     const movieText = "Harry";
