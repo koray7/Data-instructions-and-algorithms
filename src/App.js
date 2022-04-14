@@ -1,12 +1,9 @@
-import './App.css'
-import React from 'react'
-
+import './App.css';
 
 function App() {
   return (
-
-    <div className="app">
-      <h1>Friday Movies! Buckle Up!</h1>
+    <div className="App">
+      <h1>Austin!!</h1>
     </div>
   );
 }
