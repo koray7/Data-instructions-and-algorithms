@@ -644,20 +644,37 @@ function App() {
 // const result = words.filter(word => word.length > 6);
 
 // console.log(result);
-  
-  
-    const words = ['spraySSSSS', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
-  const result = words.filter(word => word.length > 6);
 
-  console.log(result);
+
+
+
   
+// ################# OBJECT ORIENTED PROGRAMMING ####################
   
+//   let dog = {
+//   name: "Spot",
+//   numLegs: 4,
+//   sayLegs: function() {
+//     return "This dog has " + this.numLegs + " legs.";
+//   }
+// };
+
+// console.log(dog.sayLegs());
+
+// ##############    CLASS OF CONSTRUCTORS  ##################
   
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
   
   
   
