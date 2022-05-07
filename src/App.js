@@ -691,7 +691,23 @@ function App() {
 // console.log(ownProps)
 
 
+// ##########################################
 
+// function House(numBedrooms, bath) {
+//   this.numBedrooms = numBedrooms;
+//   this.bath = bath;
+// }
+// let myHouse = new House("hotel", 5)
+
+// function sentence(numBedrooms, bath) {
+//   return "This a " +numBedrooms+ " and it has "+bath+" bathrooms."
+// }
+
+// let newStylesh = document.getElementById("practice").innerHTML = sentence("DreamHotel", 100);
+
+// let colored = newStylesh.style.color = "red";
+
+// console.log(newStylesh);
 
 
 
