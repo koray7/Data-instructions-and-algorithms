@@ -665,8 +665,30 @@ function App() {
 // ##############    CLASS OF CONSTRUCTORS  ##################
   
 
+// function Dog(name, color) {
+//   this.name = name,
+//   this.color = color,
+//   this.numLegs = 4 
+// }
+// let terrier = new Dog("Golden","Yellow")
 
 
+// ###############################
+
+// function Bird(name) {
+//   this.name = name;
+//   this.numLegs = 2;
+// }
+
+// let canary = new Bird("Tweety");
+// let ownProps = [];
+
+// for(let prop in canary) {
+//   if(canary.hasOwnProperty(prop)) {
+//     ownProps.push(prop);
+//   }
+// }
+// console.log(ownProps)
 
 
 
