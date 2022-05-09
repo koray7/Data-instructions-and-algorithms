@@ -710,10 +710,51 @@ function App() {
 // console.log(newStylesh);
 
 
-
+// ##################   Iterate Over All Properties   ##################
 
 
   
+// function Dog(name) {
+//   this.name = name;
+// }
+
+// Dog.prototype.numLegs = 4;
+
+// let beagle = new Dog("Snoopy");
+
+// let ownProps = [];
+// let prototypeProps = [];
+
+// for (let prop in beagle) {
+//   if(beagle.hasOwnProperty(prop)) {
+//     ownProps.push(prop)
+//   } else {
+//     prototypeProps.push(prop)
+//   }
+// }
+
+
+// ############  Understand the Constructor Property  ###########
+
+
+// function Dog(name) {
+//   this.name = name;
+// }
+
+// function joinDogFraternity(candidate) {
+//   if(candidate.constructor === Dog) {
+//     return true;
+//   } else {
+//     return false
+//   }
+// }
+
+
+
+
+
+
+
   
   
   
