@@ -752,6 +752,57 @@ function App() {
 
 
 
+// ########## Understand Where an Object’s Prototype Comes From ######
+
+
+
+// function Dog(name) {
+//   this.name = name;
+// }
+
+// let beagle = new Dog("Snoopy");
+// Dog.prototype.isPrototypeOf(beagle)
+
+
+
+// #############    Inheritance    ##############
+
+
+// function Cat(name) {
+//   this.name = name;
+// }
+
+// Cat.prototype = {
+//   constructor: Cat
+// };
+
+// function Bear(name) {
+//   this.name = name;
+// }
+
+// Bear.prototype = {
+//   constructor: Bear
+// };
+
+// function Animal() {}
+
+// Animal.prototype = {
+//   constructor: Animal,
+//   eat: function() {
+//     console.log("nom nom nom");
+//   }
+// };
+
+
+
+
+
+
+
+
+
+
+
 
 
 
