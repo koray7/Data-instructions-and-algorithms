@@ -822,15 +822,15 @@ function App() {
   
   
   
-//   return (
-//     <>
-//     <div className="App">
-//       <h1>Algo and Data Instruction</h1>
-//     </div>
-//     <div>
+  return (
+    <>
+    <div className="App">
+      <h1>Algo and Data Instruction</h1>
+    </div>
+    <div>
 
-//     </div>
-//     </>
-//   );
-// }
-// export default App;
+    </div>
+    </>
+  );
+}
+export default App;
