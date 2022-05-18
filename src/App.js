@@ -1073,8 +1073,27 @@ function App() {
     
 //  }
 //  return biggest + second;
-}
+// }
 
+
+
+
+
+
+// ####### Remove all even integers from an array #######
+
+
+
+// const inputData = [4, 1, 9, 10, 15, 22, 5, 14]
+// removeEvenNumbers (inputData) => {
+//     let odds = []
+//     for (let number of inputData) {
+//         if (number % 2 != 0) odds.push(number)
+//     }
+//   return odds
+// }
+// console.log(removeEvenNumbers(inputData)))
+// [4, 10, 22, 14]
 
 
 
