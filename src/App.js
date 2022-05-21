@@ -1161,7 +1161,21 @@ function App() {
 // }
 
 
-
+// generateBinaryNumbers(n) => {
+//   let result = []
+//   let myQueue = new Queue()
+//   let s1, s2
+//   myQueue.enqueue("1")
+//   for (let i = 0 i < n i++) {
+//       result.push(myQueue.dequeue())
+//       s1 = result[i] + "0"
+//       s2 = result[i] + "1"
+//       myQueue.enqueue(s1)
+//       myQueue.enqueue(s2)
+//   }
+//   return result
+// }
+// console.log(generateBinaryNumbers(3))
 
 
 
