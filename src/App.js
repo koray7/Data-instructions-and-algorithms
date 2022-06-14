@@ -1345,7 +1345,22 @@ function App() {
 // var x = higherOrder2();
 // x()
 
-  
+
+// var obj = {
+//   name:  "vivek",
+//   getName: function(){
+//   console.log(this.name);
+// }
+   
+// }
+     
+// var getName = obj.getName;
+     
+// var obj2 = {name:"akshay", getName };
+// obj2.getName();
+
+
+
   
   return (
     <>
