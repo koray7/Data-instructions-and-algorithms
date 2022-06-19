@@ -1384,12 +1384,13 @@ function App() {
 // console.log(usersUnder30);
 
 
-// ##### SLICE() #####
+// ##### SLICE() and Splice() #####
 
 // const arr = ["Cat", "Dog", "Tiger", "Zebra"];
 // const newArray = arr.slice(1, 3);
 
-
+// const cities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
+// cities.splice(3, 1);
 
 
 
