@@ -1427,6 +1427,31 @@ function App() {
 // Output would be [25, 9]
 
 
+// ###############   Sort an Array Alphabetically using the sort Method   #########
+
+// function ascendingOrder(arr) {
+//   return arr.sort(function(a, b) {
+//     return a - b;
+//   });
+// }
+
+// ascendingOrder([1, 5, 2, 3, 4]);
+// This would return the value [1, 2, 3, 4, 5].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
