@@ -1440,9 +1440,18 @@ function App() {
 
 
 
+// ######### Split a String into an Array Using the split Method #######
 
 
+// const str = "Hello World";
+// const bySpace = str.split(" ");
 
+// output: ["Hello", "World"]
+
+// const otherString = "How9are7you2today";
+// const byDigits = otherString.split(/\d/);
+
+// output: ["How", "are", "you", "today"]
 
 
 
