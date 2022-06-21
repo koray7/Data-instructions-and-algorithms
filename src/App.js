@@ -1582,8 +1582,30 @@ function App() {
 
 
 
+// #######  Search and Replace  ######
 
 
+// function myReplace(str, before, after) {
+  // Finding index where before is on string
+
+  //   var index = str.indexOf(before);
+  // Checking to see if the first letter is uppercase or not
+
+//   if (str[index] === str[index].toUpperCase()) {
+    // Changing the after word to be capitalized before we use it.
+//     after = after.charAt(0).toUpperCase() + after.slice(1);
+//   } else {
+    // Changing the after word to be uncapitalized before we use it.
+//     after = after.charAt(0).toLowerCase() + after.slice(1);
+//   }
+  // Now replacing the original str with the edited one.
+//   str = str.replace(before, after);
+
+//   return str;
+// }
+
+// testing here
+// myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 
 
 
