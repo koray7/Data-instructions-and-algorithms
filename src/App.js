@@ -1466,6 +1466,10 @@ function App() {
   //   return <h1>{props.post.title}</h1>
   // }
 
+  // function BlogPost({ post }) {
+  //   return <h1>{post.title}</h1>
+  // }
+
   return (
     <>
       <div className="App">
