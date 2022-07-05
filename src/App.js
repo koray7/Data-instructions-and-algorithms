@@ -1470,6 +1470,30 @@ function App() {
   //   return <h1>{post.title}</h1>
   // }
 
+  // import { createContext, useContext } from 'react';
+
+  // const PostContext = createContext()
+
+  // function App() {
+  //   const post = { title: "My Blog Post!" };
+
+  //   return (
+  //     <PostContext.Provider value={post}>
+  //       <Blog />
+  //     </PostContext.Provider>
+  //   );
+  // }
+
+  // function Blog() {
+  //   return <BlogPost />
+  // }
+
+  // function BlogPost() {
+  //   const post = useContext(PostContext)
+
+  //   return <h1>{post.title}</h1>
+  // }
+
   return (
     <>
       <div className="App">
