@@ -1495,6 +1495,18 @@ function App() {
   // }
   // posts.map(post => <li key={post.id}>{post.title}</li>)
   // posts.map(post => <li key={post.id}>{post.title}</li>)
+
+  //   import { useRef } from 'react'
+
+  // function MyComponent() {
+  //   const ref = useRef();
+
+  //   useEffect(() => {
+  //     console.log(ref.current) // reference to div element
+  //   }, [])
+
+  //   return <div ref={ref} />
+  // }
   return (
     <>
       <div className="App">
