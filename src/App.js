@@ -1493,6 +1493,7 @@ function App() {
 
   //   return <h1>{post.title}</h1>
   // }
+  // posts.map(post => <li key={post.id}>{post.title}</li>)
 
   return (
     <>
