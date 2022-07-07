@@ -14,26 +14,37 @@
 // }
 // console.log(sumPrimes(5));
 
-function smallestCommons(arr) {
-  const [min, max] = arr.sort((a, b) => a - b);
-  const numberDivisors = max - min + 1;
+// function smallestCommons(arr) {
+//   const [min, max] = arr.sort((a, b) => a - b);
+//   const numberDivisors = max - min + 1;
 
-  let upperBound = 1;
-  for (let i = min; i <= max; i++) {
-    upperBound *= i;
-  }
+//   let upperBound = 1;
+//   for (let i = min; i <= max; i++) {
+//     upperBound *= i;
+//   }
 
-  for (let multiple = max; multiple <= upperBound; multiple += max) {
-    let divisorCount = 0;
-    for (let i = min; i <= max; i++) {
-      if (multiple % i === 0) {
-        divisorCount += 1;
-      }
-    }
-    if (divisorCount === numberDivisors) {
-      return multiple;
-    }
-  }
-}
+//   for (let multiple = max; multiple <= upperBound; multiple += max) {
+//     let divisorCount = 0;
+//     for (let i = min; i <= max; i++) {
+//       if (multiple % i === 0) {
+//         divisorCount += 1;
+//       }
+//     }
+//     if (divisorCount === numberDivisors) {
+//       return multiple;
+//     }
+//   }
+// }
 
-console.log(smallestCommons([1, 5]));
+// console.log(smallestCommons([1, 5]));
+
+// function dropElements(arr, func) {
+//     while (arr.length > 0 && !func(arr[0])) {
+//       arr.shift();
+//     }
+//     return arr;
+//   }
+
+//   dropElements([1, 2, 3, 4], function(n) {
+//     return n >= 3;
+//   });
