@@ -1,15 +1,39 @@
-function sumPrimes(num) {
-  function isPrime(num) {
-    for (let i = 2; i <= Math.sqrt(num); i++) {
-      if (num % i == 0) return false;
-    }
-    return true;
+// function sumPrimes(num) {
+//   function isPrime(num) {
+//     for (let i = 2; i <= Math.sqrt(num); i++) {
+//       if (num % i == 0) return false;
+//     }
+//     return true;
+//   }
+
+//   let sum = 0;
+//   for (let i = 2; i <= num; i++) {
+//     if (isPrime(i)) sum += i;
+//   }
+//   return sum;
+// }
+// console.log(sumPrimes(5));
+
+function smallestCommons(arr) {
+  const [min, max] = arr.sort((a, b) => a - b);
+  const numberDivisors = max - min + 1;
+
+  let upperBound = 1;
+  for (let i = min; i <= max; i++) {
+    upperBound *= i;
   }
 
-  let sum = 0;
-  for (let i = 2; i <= num; i++) {
-    if (isPrime(i)) sum += i;
+  for (let multiple = max; multiple <= upperBound; multiple += max) {
+    let divisorCount = 0;
+    for (let i = min; i <= max; i++) {
+      if (multiple % i === 0) {
+        divisorCount += 1;
+      }
+    }
+    if (divisorCount === numberDivisors) {
+      return multiple;
+    }
   }
-  return sum;
 }
-console.log(sumPrimes(5));
+
+console.log(smallestCommons([1, 5]));
