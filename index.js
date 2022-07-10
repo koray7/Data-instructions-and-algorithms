@@ -87,10 +87,41 @@
 // );
 // ######## Return true if the given string is a palindrome. Otherwise, return false #########
 
-function palindrome(str) {
-  var re = /[\W_]/g;
-  var lowRegStr = str.toLowerCase().replace(re, "");
-  var reverseStr = lowRegStr.split("").reverse().join("");
-  return reverseStr === lowRegStr;
-}
-console.log(palindrome("eye"));
+// function palindrome(str) {
+//   var re = /[\W_]/g;
+//   var lowRegStr = str.toLowerCase().replace(re, "");
+//   var reverseStr = lowRegStr.split("").reverse().join("");
+//   return reverseStr === lowRegStr;
+// }
+// console.log(palindrome("eye"));
+
+// function printRoman(number) {
+//   let num = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000];
+//   let sym = [
+//     "I",
+//     "IV",
+//     "V",
+//     "IX",
+//     "X",
+//     "XL",
+//     "L",
+//     "XC",
+//     "C",
+//     "CD",
+//     "D",
+//     "CM",
+//     "M",
+//   ];
+//   let i = 12;
+//   while (number > 0) {
+//     let div = Math.floor(number / num[i]);
+//     number = number % num[i];
+//     while (div--) {
+//       document.write(sym[i]);
+//     }
+//     i--;
+//   }
+// }
+// let number = 5;
+
+// console.log(printRoman(number));
